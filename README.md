@@ -11,35 +11,35 @@ In this project i give one deep learning book and ask question from this book, s
 ![alt text](image-1.png)
 
 #### project:2
-## What is Retrieval-Augmented Generation (RAG)?
+Generate text from 
+----------> Method1: Full Supervised finetunig the model 'meta-llama3-8b model and' with "Hemanth-thunder/tamil-open-instruct-v1" Dataset
+----------> Method2: Using Rag Pipeline 
 
+
+
+###### What is Retrieval-Augmented Generation (RAG)?
 RAG is a technique that combines retrieval-based and generative models to produce more accurate and contextually relevant text. It retrieves relevant documents from a knowledge base and uses this information to generate responses, improving the quality and relevance of the output.
 
-## What is Semantic Cache?
-
+###### What is Semantic Cache?
 Semantic caching is a technique used to store and reuse the results of previous queries to improve the efficiency of data retrieval. In the context of RAG, it helps in quickly accessing relevant information without the need to fetch it repeatedly from the knowledge base, thereby speeding up the generation process.
 
-## What is Gemma2 9B?
-
+###### What is Gemma2 9B?
 Gemma2 9B is another advanced language model included in this repository. It has 9 billion parameters, providing even greater capability for understanding and generating text. The inclusion of Gemma2 offers additional options for fine-tuning and implementing RAG.
 
-## Features
-
+##### Features
 - Fine-tuning Llama3 8B model.
 - Implementing RAG for improved generation tasks.
 - Semantic caching for efficient data retrieval.
 - Sample code and notebooks for experimentation.
 - Integration with Gemma2 9B model for enhanced performance.
 
-## Installation
-
+###### Installation
 Clone the repository:
 ```bash
-git clone https://github.com/Hemanthkumar2112/Llama3-8B-Finetune-and-RAG.git
+git clone https://github.com/praveenaiiisc/Gemma2-9B-Llama3-8B-Finetune-and-RAG-Project.git
 ```
 
-## Files
-
+###### Files
 - `meta-llama-3-8b.ipynb`: Notebook for initial setup and configuration.
 - `meta-llama-3_fine_tune_with_ORPO.ipynb`: Notebook for fine-tuning using ORPO.
 - `meta-llama3-8b-fine-tuning.ipynb`: General fine-tuning notebook.
