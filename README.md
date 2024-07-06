@@ -26,7 +26,7 @@ Semantic caching is a technique used to store and reuse the results of previous 
 Gemma2 9B is another advanced language model included in this repository. It has 9 billion parameters, providing even greater capability for understanding and generating text. The inclusion of Gemma2 offers additional options for fine-tuning and implementing RAG.
 - ![Result](image-2.png)
 
-### Project:4
+#### Additionally
 - Generate text from Fully Supervised finetunig the model 'meta-llama3-8b model and' with "Hemanth-thunder/tamil-open-instruct-v1" Dataset
 
 ###### Installation
@@ -39,7 +39,5 @@ git clone https://github.com/praveenaiiisc/Gemma2-9B-Llama3-8B-Finetune-and-RAG-
 - `meta-llama-3-8b.ipynb`: Notebook for initial setup and configuration.
 - `meta-llama-3-8b-rag.ipynb`: Text Generation with Rag PipeLine 
 - `meta-llama-3-8b-semantic-cache-for-rag.ipynb`: Text Generation with Semantic caching technique Rag PipeLine
-- `meta-llama-3_fine_tune_with_ORPO.ipynb`: Notebook for fine-tuning using ORPO.
 - `meta-llama3-8b-fine-tuning.ipynb`: General fine-tuning notebook.
 - `gemma2-9b.ipynb`: Notebook for working with the Gemma2 9B model.
-
