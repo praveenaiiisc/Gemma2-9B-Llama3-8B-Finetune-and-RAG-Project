@@ -12,7 +12,7 @@ RAG is a technique that combines retrieval-based and generative models to produc
 
 ### Project:2
 - Implementing Semantic caching for efficient data retrieval ==>
-- When generating text directly from the Large Language Model (LLM), the process may take over 40 seconds. However, by caching the generated text, subsequent requests for the same text experience significantly reduced response times. This caching mechanism stores previously generated text, allowing for quick retrieval without the need to regenerate it, thus improving response times for repetitive requests. By leveraging this cache, the system optimizes performance and enhances user experience by minimizing wait times for text generation.
+- When generating text directly from the Large Language Model (LLM), the process may take over 20 seconds. However, by caching the generated text, subsequent requests for the same text experience significantly reduced response times. This caching mechanism stores previously generated text, allowing for quick retrieval without the need to regenerate it, thus improving response times for repetitive requests. By leveraging this cache, the system optimizes performance and enhances user experience by minimizing wait times for text generation.
 - ![Result](<Screenshot 2024-07-06 203437.png>)
 - ![alt text](image.png)
 - **What is Semantic Cache??**
