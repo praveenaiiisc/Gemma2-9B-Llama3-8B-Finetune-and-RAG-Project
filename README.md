@@ -6,18 +6,18 @@ Llama3-8B-Finetune-and-RAG focuses on fine-tuning the Llama3 model and utilizing
 ## Result of Llama3 8B?
 
 Llama3 8B is a powerful language model developed by Meta, containing 8 billion parameters. It is designed to understand and generate human-like text, making it useful for a wide range of natural language processing tasks.
-#### project:1
+### Project:1
 In this project i give one deep learning book and ask question from this book, So llama3 model generate generate succesful correct answer from this book. This is Rag Pipeline based Model
 ![alt text](image-1.png)
 
-#### project:2
+### Project:2
 Implementing Semantic Cache For Rag Pipeline ==>
 When generating text directly from the Large Language Model (LLM), the process may take over 40 seconds. However, by caching the generated text, subsequent requests for the same text experience significantly reduced response times. This caching mechanism stores previously generated text, allowing for quick retrieval without the need to regenerate it, thus improving response times for repetitive requests. By leveraging this cache, the system optimizes performance and enhances user experience by minimizing wait times for text generation.
 ![alt text](<Screenshot 2024-07-06 203437.png>)
 ![alt text](image.png)
 
 
-#### Project:3
+### Project:3
 Generate text from 
 ----------> Method1: Full Supervised finetunig the model 'meta-llama3-8b model and' with "Hemanth-thunder/tamil-open-instruct-v1" Dataset
 ----------> Method2: Using Rag Pipeline 
