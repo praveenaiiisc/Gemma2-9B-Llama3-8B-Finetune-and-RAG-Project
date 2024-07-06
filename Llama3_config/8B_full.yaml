@@ -61,7 +61,7 @@ gradient_accumulation_steps: 1
 
 
 # Training env
-device: cuda
+device: cuda:2
 
 # Memory management
 enable_activation_checkpointing: True

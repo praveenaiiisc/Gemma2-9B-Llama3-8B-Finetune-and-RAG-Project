@@ -76,7 +76,8 @@ metric_logger:
 log_every_n_steps: 1
 
 # Environment
-device: cuda
+device: cuda:2
+
 dtype: bf16
 enable_activation_checkpointing: True
 

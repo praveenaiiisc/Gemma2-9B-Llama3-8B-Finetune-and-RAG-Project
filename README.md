@@ -11,6 +11,13 @@ In this project i give one deep learning book and ask question from this book, s
 ![alt text](image-1.png)
 
 #### project:2
+Implementing Semantic Cache For Rag Pipeline ==>
+When generating text directly from the Large Language Model (LLM), the process may take over 40 seconds. However, by caching the generated text, subsequent requests for the same text experience significantly reduced response times. This caching mechanism stores previously generated text, allowing for quick retrieval without the need to regenerate it, thus improving response times for repetitive requests. By leveraging this cache, the system optimizes performance and enhances user experience by minimizing wait times for text generation.
+![alt text](<Screenshot 2024-07-06 203437.png>)
+![alt text](image.png)
+
+
+#### Project:3
 Generate text from 
 ----------> Method1: Full Supervised finetunig the model 'meta-llama3-8b model and' with "Hemanth-thunder/tamil-open-instruct-v1" Dataset
 ----------> Method2: Using Rag Pipeline 
@@ -41,9 +48,9 @@ git clone https://github.com/praveenaiiisc/Gemma2-9B-Llama3-8B-Finetune-and-RAG-
 
 ###### Files
 - `meta-llama-3-8b.ipynb`: Notebook for initial setup and configuration.
+- `meta-llama-3-8b-rag.ipynb`: Text Generation with Rag PipeLine
 - `meta-llama-3_fine_tune_with_ORPO.ipynb`: Notebook for fine-tuning using ORPO.
 - `meta-llama3-8b-fine-tuning.ipynb`: General fine-tuning notebook.
 - `tamil_llama3-SFT_test_existing_tokenizer.ipynb`: Notebook for testing the existing tokenizer.
 - `gemma2-9b.ipynb`: Notebook for working with the Gemma2 9B model.
 
----
