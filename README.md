@@ -7,7 +7,7 @@ Llama3-8B-Finetune-and-RAG focuses on fine-tuning the Llama3 model and utilizing
 
 Llama3 8B is a powerful language model developed by Meta, containing 8 billion parameters. It is designed to understand and generate human-like text, making it useful for a wide range of natural language processing tasks.
 #### project:1
-In this project i give one deep learning book and ask question from this book, sp llama3 model generate generate succesful correct answer from this book. This id Rag Pipeline based Model
+In this project i give one deep learning book and ask question from this book, So llama3 model generate generate succesful correct answer from this book. This is Rag Pipeline based Model
 ![alt text](image-1.png)
 
 #### project:2
