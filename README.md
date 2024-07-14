@@ -1,7 +1,7 @@
 # Gemma2(9b) Llama3-8B-Finetune-and-RAG
 
-- This repository contains code for fine-tuning the Llama3 8B model and implementing Retrieval-Augmented Generation (RAG). Llama3-8B-Finetune-and-RAG focuses on fine-tuning the Llama3 model and utilizing RAG for enhanced performance in various tasks.Llama3 8B is a powerful language model developed by Meta, containing 8 billion parameters. It is designed to understand and generate human-like text, making it useful for a wide range of natural language processing tasks.
-- Additionally, it includes work with the Gemma2 model, which has 9 billion parameters.
+- This repository contains code with the Gemma2 model, which has 9 billion parameters.
+- Additionally fine-tuning the Llama3 8B model and implementing Retrieval-Augmented Generation (RAG). Llama3-8B-Finetune-and-RAG focuses on fine-tuning the Llama3 model and utilizing RAG for enhanced performance in various tasks.Llama3 8B is a powerful language model developed by Meta, containing 8 billion parameters. It is designed to understand and generate human-like text, making it useful for a wide range of natural language processing tasks.
 
 ### Project:1
 - Integration with Gemma2 9B model for enhanced performance
